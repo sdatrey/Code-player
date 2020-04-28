@@ -1,0 +1,38 @@
+<html>
+    <head>  
+        <title>Javascript</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="javascript.js">
+        <script type = "text/Javascript" src="jquery-3.5.0.js">
+        </script>
+    </head>
+    <header>
+        <div class="heading">
+           <h1>CodePlayer</h1> 
+        </div>
+        <div class="head-btn">
+           
+                <button class="togglebutton active" id="html">HTMl</button>
+         
+                <button class="togglebutton" id="css">CSS</button>
+          
+                <button class="togglebutton" id="javascript">JavaScript</button>
+            
+                <button class="togglebutton active" id="output">Output</button>
+            
+        </div>
+    </header>
+    <body>
+        <div id="bodyContainer">
+            <textarea id="htmlPanel" class="panel"><p id="paragraph">Hello World </p></textarea>
+            <textarea id="cssPanel" class="panel hidden">p{ color:green;}</textarea>
+            <textarea id="javascriptPanel" class="panel hidden">document.getElementById("paragraph").innerHTML = "Hello Rob";</textarea>
+            <iframe id="outputPanel" class="panel"></iframe>
+
+        </div>
+       
+        <script type = "text/Javascript" src="javascript.js">
+    </script>
+    </body>
+    
+</html>

@@ -1,0 +1,56 @@
+html,
+body,
+ul,
+h1,
+p,
+div {
+  margin: 0;
+  padding: 0;
+}
+
+header{
+    height: 50px;
+    top: 0;
+    width: 100%;
+    background-color: grey;
+    margin: 0 auto;
+    position: absolute;
+}
+.heading{
+    
+    float: left;
+    display: block;
+    font-weight: bold;
+}
+.head-btn{
+    margin-top: 15px;
+    margin-left: 50%;
+}
+.togglebutton{
+    float: left;
+}
+.active{
+    background-color: #E8F2FF;
+}
+.highlightedButton{
+    background-color: grey;
+}
+textarea{
+    margin-top: 50px;
+    
+   resize: none;
+   border-top: none;
+   border-color: grey;
+}
+.panel{
+    margin-top: 50px;
+    float: left;
+    width: 50%;
+    border-left: none;
+}
+iframe{
+    border: none;
+}
+.hidden{
+    display: none;
+}
